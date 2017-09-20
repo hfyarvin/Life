@@ -20,3 +20,4 @@
 
 ### 分不了类
 * [礼物](https://www.zhihu.com/question/28551841 "送女朋友的")
+* [人類圖](https://humandesignasia123.gitbooks.io/introduction_booklet/content/chapter3/chapter3.2.html "人類圖")
