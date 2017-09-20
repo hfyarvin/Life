@@ -8,3 +8,6 @@
 ### Golang
 * [The way to go](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md "the way to go")（正在看）
 * [Go简易教程](https://github.com/songleo/the-little-go-book_ZH_CN "Go简易教程")(看过)
+
+### 这都是知识点
+* [git修复](http://blog.csdn.net/chaoyueziji123/article/details/54669555 "git")
