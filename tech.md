@@ -8,7 +8,8 @@
 
 ### Golang
 * [The way to go](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md "the way to go")（06.3.md）
-* [Go简易教程](https://github.com/songleo/the-little-go-book_ZH_CN "Go简易教程")(看过)  
+- [Go简易教程](https://github.com/songleo/the-little-go-book_ZH_CN "Go简易教程")(看过)  
+* [Go语言中文网](https://studygolang.com/ "Go语言中文网")
 
 ### Ruby
 *
