@@ -20,10 +20,10 @@
 - 低成本
 
 ## 4.LoRaWAN对Server四层架构
-- NS(Network Server)
-- AS(Application Server)
-- NC(Network controller)
-- CS(Customer Server)
+- loraserver NS(Network Server)
+- lora-app-server AS(Application Server)
+- lora-controller NC(Network Controller)
+- application CS(Customer Server)
 ### - 注：LoRaWAN规定GW与NS的接口协议是json(MQTT-->JSON转换 ora-gateway-bridge)
 
 ## 术语
@@ -32,3 +32,6 @@
 - 下行传输(downlink transmission)
 - 接入点(AP access point)
 - 网关(GW gateway)
+
+## 网站
+- [LoRa实验室](http://www.loraapp.com/lora-university/)
