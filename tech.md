@@ -15,7 +15,7 @@
 - [Go指南](http://tour.studygolang.com/welcome/1 "")
 - [微度网络Go语言](http://www.widuu.com/archives/category/golang "微度")  
 - [蛤蟆笔记go语言1](https://studygolang.com/articles/7292 "蛤蟆笔记")
-- [雨痕--GO学习笔记](https://github.com/qyuhen/book/blob/master/Go%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20%E7%AC%AC%E5%9B%9B%E7%89%88.pdf "page14")
+- [雨痕--GO学习笔记](https://github.com/qyuhen/book/blob/master/Go%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20%E7%AC%AC%E5%9B%9B%E7%89%88.pdf "")
 
 ### Ruby
 *
@@ -25,11 +25,6 @@
 
 ### sql
 * [mysql](./sql.md "知识点")  
-
-### LoraServer
-* [LoraServer](https://github.com/brocaar/loraserver) 
-- [lora_outline](./img/loraserver.jpg) 
-* [brocaar](http://www.brocaar.com)
 
 ### 其他
 * [简书--markdown](http://www.jianshu.com/p/q81RER "简书")
