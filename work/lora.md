@@ -32,6 +32,7 @@
 - 下行传输(downlink transmission)
 - 接入点(AP access point)
 - 网关(GW gateway)
+- 开源(open-sourced)
 
 ## 网站
 - [LoRa实验室](http://www.loraapp.com/lora-university/)
