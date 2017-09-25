@@ -9,6 +9,7 @@
 - star topology
 - bidirectional: 终端通讯双向
 - 资料率： 0.3 kbps - 50 kbps
+- 调制与展频: GFSK + CSS(Chirp Spread Spectrum)
 
 ## 3. LoRaWAN优点
 - 长距离
@@ -39,3 +40,4 @@
 - [LoraServer](https://github.com/brocaar/loraserver) 
 - [lora_outline](./img/loraserver.jpg) 
 - [brocaar](http://www.brocaar.com)
+- [MQTT入门](https://zhuanlan.zhihu.com/p/20888181)

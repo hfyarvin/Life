@@ -1,0 +1,4 @@
+- battery: 电池  
+- occasionally: 偶尔
+- pub/sub: 发布/订阅
+- 

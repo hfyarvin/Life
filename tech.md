@@ -20,11 +20,11 @@
 ### Ruby
 *
 
-### 这都是知识点
-* [git修复](http://blog.csdn.net/chaoyueziji123/article/details/54669555 "git")
-
 ### sql
 * [mysql](./sql.md "知识点")  
 
 ### 其他
 * [简书--markdown](http://www.jianshu.com/p/q81RER "简书")
+
+### 这都是知识点
+* [git修复](http://blog.csdn.net/chaoyueziji123/article/details/54669555 "git")
