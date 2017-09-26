@@ -30,7 +30,7 @@
 ## 术语
 - 终端设备(end-point devices)
 - 上行传输(uplink transmission)
-- 下行传输(downlink transmission)
+- 下行传输(downlink transmission)/
 - 接入点(AP access point)
 - 网关(GW gateway)
 - 开源(open-sourced)
