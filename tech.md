@@ -1,10 +1,10 @@
 # 技术相关  
 
 ### 网站
-* [V2EX](https://www.v2ex.com/ "v2ex")  
+- [V2EX](https://www.v2ex.com/ "v2ex")  
 - [cloud9](https://c9.io/?redirect=0 "c9")  
 - [Bitbucket](https://bitbucket.org/product "bitbucket")  
-* [简书--程序员](http://www.jianshu.com/c/NEt52a "简书")
+- [简书--程序员](http://www.jianshu.com/c/NEt52a "简书")
 
 ### Golang
 - [The way to go](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md "the way to go")（06.3.md）
