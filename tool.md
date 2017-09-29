@@ -9,3 +9,4 @@
 
 ## 记录
 - [TeaKKi](https://teakki.com/)
+- [装机](https://jingyan.baidu.com/article/bad08e1ebb538e09c85121d8.html)
