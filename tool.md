@@ -6,6 +6,7 @@
 - [HEX/字符串转换](http://tool.lu/hexstr/ "")  
 - [BASE64编码/解码](http://base64.xpcha.com/)
 - [在线C#编辑器](http://www.runoob.com/try/runcode.php?filename=HelloWorld&type=cs)
+- [navicat]("mysql")
 
 ## 记录
 - [TeaKKi](https://teakki.com/)
