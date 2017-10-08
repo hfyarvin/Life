@@ -28,7 +28,8 @@
 - [git](http://www.jianshu.com/p/15a4dee9c5df#comments)
 
 ### 其他
-* [简书--markdown](http://www.jianshu.com/p/q81RER "简书")
+- [简书--markdown](http://www.jianshu.com/p/q81RER "简书")
+- [数据结构](https://wenku.baidu.com/view/7b82cc1314791711cc791790.html)
 
 ### 这都是知识点
 * [git修复](http://blog.csdn.net/chaoyueziji123/article/details/54669555 "git")
