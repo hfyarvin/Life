@@ -6,6 +6,8 @@
 - [Bitbucket](https://bitbucket.org/product "bitbucket")  
 - [简书--程序员](http://www.jianshu.com/c/NEt52a "简书")
 - [实验楼](https://www.shiyanlou.com/)
+- [在线代码格式化](http://tool.oschina.net/codeformat/js/)
+- [代码在线运行](http://tool.lu/coderunner)
 
 ### Golang
 - [The way to go](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md "the way to go")（06.3.md）
@@ -17,6 +19,7 @@
 - [微度网络Go语言](http://www.widuu.com/archives/category/golang "微度")  
 - [蛤蟆笔记go语言1](https://studygolang.com/articles/7292 "蛤蟆笔记")
 - [雨痕--GO学习笔记](https://github.com/qyuhen/book/blob/master/Go%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20%E7%AC%AC%E5%9B%9B%E7%89%88.pdf "")
+- [](http://blog.csdn.net/jov123/article/category/2216585)
 
 ### Ruby
 *
