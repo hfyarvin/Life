@@ -6,7 +6,7 @@
 - [Bitbucket](https://bitbucket.org/product "bitbucket")  
 - [简书--程序员](http://www.jianshu.com/c/NEt52a "简书")
 - [实验楼](https://www.shiyanlou.com/)
-- [在线代码格式化](http://tool.oschina.net/codeformat/js/)
+- [在线代码格式化](http://web.chacuo.net/formatsql)
 - [代码在线运行](http://www.dooccn.com/)
 
 ### Golang
