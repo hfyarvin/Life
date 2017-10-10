@@ -7,7 +7,7 @@
 - [简书--程序员](http://www.jianshu.com/c/NEt52a "简书")
 - [实验楼](https://www.shiyanlou.com/)
 - [在线代码格式化](http://tool.oschina.net/codeformat/js/)
-- [代码在线运行](http://tool.lu/coderunner)
+- [代码在线运行](http://www.dooccn.com/)
 
 ### Golang
 - [The way to go](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md "the way to go")（06.3.md）
