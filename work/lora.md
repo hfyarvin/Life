@@ -24,7 +24,7 @@
 - loraserver NS(Network Server)
 - lora-app-server AS(Application Server)
 - lora-controller NC(Network Controller)
-- application CS(Customer Server)
+- application CS(Customer Server)终端
 ### - 注：LoRaWAN规定GW与NS的接口协议是json(MQTT-->JSON转换 ora-gateway-bridge)
 
 ## 术语
@@ -42,3 +42,4 @@
 - [brocaar](http://www.brocaar.com)
 - [MQTT入门](https://zhuanlan.zhihu.com/p/20888181)
 - [file1](http://blog.csdn.net/jiangjunjie_2005/article/details/54669337)
+- [lorawan中文版](http://blog.csdn.net/iotisan/)
