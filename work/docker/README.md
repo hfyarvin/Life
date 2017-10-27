@@ -48,3 +48,24 @@
 - docker attach $ID
 - docker stop $ID
 - docker attach
+- docker diff container
+- docker import http://...
+- export $ID > image.tar
+- docker cp container:path hostpath 从容器内复制文件到指定路径上
+- docker login [options] [server]
+- docker inspect container/image
+- docker rmi
+- docker wait
+- docker load
+- docker save
+
+## API
+- /api/v1.1/users/:username/ --get
+- /api/v1.1/users/:username/ --patch
+- /api/v1.1/users/:username/emails/ --get
+- /api/v1.1/users/:username/emails/ --delete
+
+## build
+- docker build [options] PATH | URL
+- --rm=true 移除所有中间容器
+- --no-cache=false 不使用缓存
