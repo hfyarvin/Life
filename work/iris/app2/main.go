@@ -48,25 +48,45 @@ var basicAuth = basicauth.New(basicauth.Config{
 
 func main() {
 	app := iris.New()
-	app.Use(basicauth)
+	app.Use(basicAuth)
 	app.Controller("/movies", new(MovieController))
-	app.Run(iris.Addr(":8080"))
+	app.Run(iris.Addr(":7002"))
 }
 
 type MovieController struct {
 	mvc.C //继承
 }
 
-func (c *MoviesController) Get() []Movie {
+func (c *MovieController) Get() []Movie {
 	return movies
 }
 
-func (c *MoviesController) GetBy(id int) Movie {
+func (c *MovieController) GetBy(id int) Movie {
 	return movies[id]
 }
 
-func (c *MoviesController) PutBy(id int) Movie {
+func (c *MovieController) PutBy(id int) Movie {
 	m := movies[id]
+
+	file, info, err := c.Ctx.FormFile("poster")
+	if err != nil {
+		c.Ctx.StatusCode(iris.StatusInternalServerError)
+		return Movie{}
+	}
+
+	file.Close()
+	poster := info.Filename
+	genre := c.Ctx.FormValue("genre")
+
+	m.Poster = poster
+	m.Genre = genre
+	movies[id] = m
+
+	return m
 }
 
-//...
+func (c *MovieController) DeleteBy(id int) iris.Map {
+	deleted := movies[id].Name
+	movies = append(movies[:id], movies[id+1:]...)
+	return iris.Map{"deleted": deleted}
+}

@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	"/app3/datamodels"
+	"../datamodels"
 )
 
 var Movies = map[int64]datamodels.Movie{
