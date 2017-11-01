@@ -1,0 +1,113 @@
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <title>今日温湿度</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./Highcharts-6.0.2/code/highcharts.js"></script>
+    <script src="./Highcharts-6.0.2/code/modules/exporting.js"></script>
+    <script src="./Highcharts-6.0.2/code/modules/series-label.js"></script>
+    <script src="./Highcharts-6.0.2/code/modules/oldie.js"></script>
+    <script src="https://img.hcharts.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+    
+    </head>
+    <body>
+    <div id="container" style="width: 100%;position: absolute;top: 0;left: 0;"></div>
+    <script language="JavaScript">
+    $(document).ready(function() {
+       var current_temp = 25;
+       var current_humidity = 55;
+       var title = {
+           text: '当前温湿度: ' + current_temp + '\xB0C/' + current_humidity + "%"
+       };
+       var subtitle = {
+            text: 'From:www.maxiiot.com'
+       };
+
+       var categories_data = ['1h', '2h', '3h', '4h', '5h', '6h'
+           ,'7h', '8h', '9h', '10h', '11h', '12h']
+       var xAxis = {
+           categories: categories_data,
+           title: {
+               text: 'aaa'
+           }
+       };
+       var yAxis = {
+          title: {
+             text: 'Temperature (\xB0C) & Humidity(%)'
+          },
+          plotLines: [{
+             value: 0,
+             width: 1,
+             color: '#808080'
+          }]
+       };   
+    
+    //    var tooltip = {
+    //        //单位
+    //     //   valueSuffix: getSubfix(this.name)
+    //    }
+
+       //配置图表向右对齐 
+       var legend = {
+           //verical:垂直;horizontal:水平
+          layout: 'vertical',
+          align: 'right',
+          verticalAlign: 'middle',
+          borderWidth: 0
+       };
+
+       var temperature_data = [70, 69, 45, 50, 50, 60, 50,
+             60, 42, 43, 42,43];
+
+       var humidity_data = [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2,
+              26.5, 23.3, 18.3, 13.9, 9.6];
+       var series =  [
+          {
+             name: 'temperature',
+             data: temperature_data,
+             tooltip: {
+                 valueSuffix: '\xB0C'
+             },  
+            dataLabels:{  
+                enabled:false, //是否显示数据标签  
+                formatter: function() {  
+                  return this.y + '°C';  
+                }  
+              }  
+          },
+          {
+              name: 'humidity',
+              data: humidity_data,
+              tooltip: {
+                  valueSuffix: '%'
+              },  
+              dataLabels:{  
+                enabled:false, //是否显示数据标签  
+                formatter: function() {  
+                  return this.y + '°C';  
+                }  
+              }  
+          }
+       ];
+    
+       var json = {};
+    
+       json.title = title;
+       json.subtitle = subtitle;
+       json.xAxis = xAxis;
+       json.yAxis = yAxis;
+    //    json.tooltip = tooltip;
+       json.legend = legend;
+       json.series = series;
+    
+       $('#container').highcharts(json);
+    });
+
+    function myrefresh() 
+    { 
+    window.location.reload(); 
+    } 
+    setTimeout('myrefresh()',1000*30); //指定30秒刷新一次
+    </script>
+    </body>
+    </html>
