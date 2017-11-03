@@ -2,6 +2,7 @@ package route
 
 import (
 	"../controllers"
+	"../controllers/file_controllers"
 	"github.com/gin-gonic/gin"
 )
 
@@ -26,6 +27,13 @@ func Init(router *gin.Engine) {
 	//绑定
 	bindGroup := router.Group("/bind")
 	{
-		router.POST("/form/default", controllers.BindDefaultForm)
+		bindGroup.POST("/form/default", controllers.BindDefaultForm)
+		bindGroup.POST("/json/default", controllers.BindDefaultJson)
+	}
+
+	//文件
+	fileGroup := router.Group("/file")
+	{
+		fileGroup.POST("/upload", file_controllers.UploadFile)
 	}
 }
