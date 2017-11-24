@@ -11,3 +11,7 @@ func main() {
 	route.Init(router)
 	router.Run(":8081")
 }
+
+func init() {
+
+}

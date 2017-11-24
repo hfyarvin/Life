@@ -2,6 +2,7 @@ package controllers
 
 import (
 	// "fmt"
+	"../models/user_model"
 	"github.com/gin-gonic/gin"
 )
 

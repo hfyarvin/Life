@@ -1,13 +1,13 @@
 package file_controllers
 
 import (
-	"github.com/gin-gonic/gin"
 	"fmt"
+	"github.com/gin-gonic/gin"
 )
 
 func UploadFile(c *gin.Context) {
 	_, header, err := c.Request.FormFile("upload")
-	fmt.Println("thsii "err)
+	fmt.Println("thsii ", err)
 	filename := header.Filename
 
 	obj := gin.H{
